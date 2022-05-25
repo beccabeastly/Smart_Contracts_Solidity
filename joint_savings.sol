@@ -17,7 +17,7 @@ contract JointSavings {
         /*
          `require` statement that checks if the `balance` is sufficient to accomplish the withdraw operation. If there are insufficient funds, the text `Insufficient funds!` is returned.
         */
-        require(contractBalance >= amount, "Insufficient funds!");
+        require(contractBalance > amount, "Insufficient funds!");
 
         /*
          `if` statement to check if the `lastToWithdraw` is not equal to (`!=`) to `recipient` If `lastToWithdraw` is not equal, then set it to the current value of `recipient`.
@@ -32,6 +32,8 @@ contract JointSavings {
 
         //the `contractBalance` variable and set it equal to the balance of the contract by using `address(this).balance` to reflect the new balance of the contract.
         contractBalance = address(this).balance;
+        lastWithdrawAmount = amount;
+        
     }
 
     // Define a `public payable` function named `deposit`.
@@ -50,7 +52,7 @@ contract JointSavings {
 
         // Set the values of `accountOne` and `accountTwo` to `account1` and `account2`.
         accountOne = account1;
-        account2 = account2;
+        accountTwo = account2;
     }
 
     /*
