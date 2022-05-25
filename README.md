@@ -26,13 +26,13 @@ Learn about the REMIX project using Solidity here:[Solidity Install](https://rem
 
 # Code Footnotes
 
-Deploy and Deposit Ether
+Deploy and Deposit Wei: The contract will show how much Wei is not in the account balance
 ![deposit](https://github.com/beccabeastly/Smart_Contracts_Solidity/blob/main/deposited_wei.png)
 
-Contract Calls
+Contract Calls: shows the functions that were called
 ![proof_of_calls](https://github.com/beccabeastly/Smart_Contracts_Solidity/blob/main/call_functions.png)
 
-Transaction Balances
+Transaction Balances: shows the remaining balance after sending Ether (converts in wei) gas amount is also shown in contract record
 ![Balances](https://github.com/beccabeastly/Smart_Contracts_Solidity/blob/main/complete_withdraw_balance.png)
 
 
