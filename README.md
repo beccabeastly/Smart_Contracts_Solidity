@@ -26,7 +26,7 @@ Learn about the REMIX project using Solidity here:[Solidity Install](https://rem
 
 # Code Footnotes
 
-Deploy and Deposit Wei: The contract will show how much Wei is not in the account balance
+Deploy and Deposit Wei: The contract will show how much Wei is now in the the account balance
 ![deposit](https://github.com/beccabeastly/Smart_Contracts_Solidity/blob/main/deposited_wei.png)
 
 Contract Calls: shows the functions that were called
