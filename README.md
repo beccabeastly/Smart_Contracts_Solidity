@@ -15,7 +15,7 @@ In this project I used solidity to build smart contracts that can connect to the
 Learn about the REMIX project using Solidity here:[Solidity Install](https://remix-project.org/)
 
 **For REMIX**
-[REMIX](https://remix.ethereum.org/) 
+[REMIX_Development_Website](https://remix.ethereum.org/) 
 
 
 
